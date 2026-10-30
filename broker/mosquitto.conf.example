@@ -1,0 +1,16 @@
+# Configuração de exemplo do Mosquitto
+# Projeto: Irrigação Inteligente
+
+# Comunicação MQTT com o ESP32
+listener 1883
+protocol mqtt
+
+# Comunicação WebSocket com o dashboard
+listener 9001
+protocol websockets
+
+# Apenas para testes em uma rede confiável
+allow_anonymous true
+
+# Persistência das mensagens
+persistence true
