@@ -1,0 +1,23 @@
+# Configurações privadas do ESP32
+esp32/config.h
+
+# Configurações privadas do dashboard
+dashboard/config.js
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Dependências
+node_modules/
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações do editor
+.vscode/
