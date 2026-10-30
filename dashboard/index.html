@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>Irrigação Inteligente</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1> Irrigação Inteligente</h1>
+    <p>Monitoramento da umidade do solo</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Umidade do Solo</h2>
+      <p id="umidade">--%</p>
+    </section>
+
+    <section class="card">
+      <h2>Status da Irrigação</h2>
+      <p id="status">Aguardando dados...</p>
+    </section>
+
+    <button id="btn-irrigar" disabled>
+      Ativar Irrigação
+    </button>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
